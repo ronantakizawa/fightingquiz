@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "apexcharts": "^3.37.1",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.0",
     "react-bootstrap": "^2.7.2",
@@ -15,11 +16,14 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage":"https://ronantakizawa.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
