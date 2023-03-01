@@ -2,13 +2,13 @@
   "name": "fightingquiz",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ronantakizawa.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "apexcharts": "^3.37.1",
     "bootstrap": "^5.2.3",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.0",
     "react-bootstrap": "^2.7.2",
@@ -16,7 +16,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage":"https://ronantakizawa.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
