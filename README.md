@@ -1,3 +1,22 @@
+This is a simple quiz web application that calculates what kind of fighter you are. 
+The quiz determines 5 fighting traits (Power,Speed,Stamina,IQ,EQ), and generates a pentagonal graph that shows your strengths and weaknesses as a fighter. The final page will also provide links to improve your weakness. 
+
+Example output:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
