@@ -128,6 +128,7 @@ const getSecond=(max)=>{
     emoji=['\u2696\uFE0F'];
     sport="Boxing, Karate, Wrestling"
     smallestNumber=5;
+    description="Balanced types are proficient all around, and can fight opponents in various ways."
   }
   var min = numToVal(smallestNumber);
   
