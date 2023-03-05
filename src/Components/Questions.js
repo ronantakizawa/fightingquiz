@@ -1,5 +1,4 @@
 import "./setup.css";
-import openGraph from "./Quiz"
 
 function Questions(){
 

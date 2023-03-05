@@ -18,7 +18,7 @@ const title = {
 const subtitle = {
   display:"grid",
   placeItems:"center",
-  fontSize:"23px",
+  fontSize:"1.8vw",
   overflow: "hidden",
   whiteSpace: "nowrap",
   paddingLeft:"10px",
@@ -26,7 +26,7 @@ const subtitle = {
 
 }
 const text = {
-  fontSize:"23px",
+  fontSize:"1.8vw",
   overflow: "hidden",
   whiteSpace: "nowrap",
   paddingLeft:"10px",

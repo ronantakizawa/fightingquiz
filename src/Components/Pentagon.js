@@ -1,5 +1,4 @@
 import Chart from "react-apexcharts";
-import React, { useState, useEffect} from 'react';
 import "./setup.css";
 import {score} from "./Quiz"
 
@@ -29,6 +28,15 @@ function Pentagon() {
   markers: {
     colors:['#FF0000']
  },
+ width:600,
+ height:600,
+ responsive: [{
+  breakpoint: 480,
+  options: {
+    width:100,
+    height:100
+  },
+}]
   };
 
   return (
@@ -36,8 +44,8 @@ function Pentagon() {
         options={options}
         series={options.series}
         type="radar"
-        width="600"
-        height="600"
+        width={options.width}
+        height={options.height}
         style={{float:"left"}}></Chart>
   );
 }
